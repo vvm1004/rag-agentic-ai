@@ -1,0 +1,54 @@
+LangChain is a framework for building applications powered by language models.
+It provides reusable components for prompts, models, parsers, retrievers,
+tools, memory, chains, and agents.
+
+A chat model receives messages with different roles. A system message defines
+the assistant's behavior. A human message represents user input. An AI message
+represents the model's response.
+
+PromptTemplate creates a reusable text prompt from variables.
+ChatPromptTemplate creates a sequence of chat messages.
+MessagesPlaceholder inserts a list of messages into a chat prompt.
+
+LangChain Expression Language, also called LCEL, uses the pipe operator to
+connect components. A common LCEL pipeline consists of a prompt, a model,
+and an output parser.
+
+An output parser transforms model output into a format that software can use.
+A string parser returns plain text. A JSON parser returns structured data.
+Some model providers also support native structured output.
+
+A LangChain Document contains page_content and metadata. Document loaders
+convert sources such as text files, PDF files, and web pages into Document
+objects.
+
+Long documents are split into smaller chunks before retrieval. Chunk size
+controls the target size of each chunk. Chunk overlap preserves some context
+between adjacent chunks.
+
+An embedding model converts text into a numeric vector. Texts with similar
+meanings usually produce vectors that are close together.
+
+A vector store such as Chroma stores document vectors and performs semantic
+similarity search.
+
+A retriever accepts a query and returns relevant Document objects. A vector
+store can be converted into a retriever interface.
+
+Retrieval-Augmented Generation, also called RAG, retrieves relevant documents
+and places them into a language model prompt as context. The model then answers
+the question using that context.
+
+Language model APIs are normally stateless. Conversation memory preserves
+message history across multiple model calls.
+
+A chain follows a workflow defined by a developer. A multi-step chain can
+analyze sentiment, summarize a review, and generate a customer response.
+
+A tool is a callable function with a name, description, and input schema.
+Tools allow a model to request deterministic operations such as calculations,
+database queries, searches, and API calls.
+
+An agent uses a language model to decide which tool to call and which action
+to perform next. A fixed chain follows predefined steps, while an agent chooses
+its next step dynamically.
