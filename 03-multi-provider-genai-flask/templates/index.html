@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Multi-Provider AI Support Assistant</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='styles.css') }}"
+    >
+</head>
+
+<body>
+    <main class="app-shell" data-max-message-length="{{ max_message_length }}">
+        <header class="app-header">
+            <div>
+                <p class="eyebrow">
+                    Flask + LangChain
+                </p>
+
+                <h1>
+                    Multi-Provider AI Support Assistant
+                </h1>
+
+                <p class="subtitle">
+                    Select an API provider and compare structured
+                    customer-support analysis.
+                </p>
+            </div>
+
+            <button
+                id="clearButton"
+                class="secondary-button"
+                type="button"
+            >
+                Clear results
+            </button>
+        </header>
+
+        {% if not has_configured_providers %}
+            <section class="configuration-warning">
+                <strong>
+                    No provider is configured.
+                </strong>
+
+                <span>
+                    Copy <code>.env.example</code> to
+                    <code>.env</code> and add at least one API key.
+                </span>
+            </section>
+        {% endif %}
+
+        <section
+            id="messagesContainer"
+            class="messages-container"
+            aria-live="polite"
+        >
+            <div
+                id="welcomeMessage"
+                class="welcome-card"
+            >
+                <h2>
+                    Analyze a customer message
+                </h2>
+
+                <p>
+                    Providers without an API key are shown but disabled.
+                    Configure only the providers that you plan to use.
+                </p>
+            </div>
+        </section>
+
+        <div
+            id="loadingIndicator"
+            class="loading-indicator hidden"
+            role="status"
+        >
+            <span class="spinner"></span>
+            <span>
+                The selected provider is analyzing the message...
+            </span>
+        </div>
+
+        <form
+            id="analysisForm"
+            class="input-panel"
+        >
+            <label for="providerSelect">
+                AI provider
+            </label>
+
+            <select
+                id="providerSelect"
+                name="provider"
+                {% if not has_configured_providers %}disabled{% endif %}
+            >
+                {% for provider in providers %}
+                    <option
+                        value="{{ provider.id }}"
+                        data-model="{{ provider.model }}"
+                        data-description="{{ provider.description }}"
+                        {% if not provider.configured %}disabled{% endif %}
+                        {% if provider.id == default_provider %}selected{% endif %}
+                    >
+                        {{ provider.label }}
+                        — {{ provider.model }}
+                        {% if not provider.configured %}
+                            (API key required)
+                        {% endif %}
+                    </option>
+                {% endfor %}
+            </select>
+
+            <div
+                id="providerDetails"
+                class="provider-details"
+            >
+                <span id="providerModel"></span>
+                <span id="providerDescription"></span>
+            </div>
+
+            <label for="messageInput">
+                Customer message
+            </label>
+
+            <textarea
+                id="messageInput"
+                name="message"
+                rows="5"
+                maxlength="{{ max_message_length }}"
+                placeholder="Example: I was charged twice for my subscription and need help with a refund."
+                required
+                {% if not has_configured_providers %}disabled{% endif %}
+            ></textarea>
+
+            <div class="form-footer">
+                <span id="characterCount">
+                    0 / {{ max_message_length }}
+                </span>
+
+                <button
+                    id="submitButton"
+                    class="primary-button"
+                    type="submit"
+                    {% if not has_configured_providers %}disabled{% endif %}
+                >
+                    Analyze message
+                </button>
+            </div>
+        </form>
+    </main>
+
+    <script>
+        window.APP_CONFIG = {
+            maxMessageLength: parseInt(document.querySelector('.app-shell').dataset.maxMessageLength, 10)
+        };
+    </script>
+
+    <script
+        src="{{ url_for('static', filename='script.js') }}"
+    ></script>
+</body>
+</html>

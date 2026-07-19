@@ -6,11 +6,17 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.15.0",
+    "flask>=3.1.3",
     "langchain>=1.3.12",
     "langchain-chroma>=1.1.0",
     "langchain-community>=0.4.2",
     "langchain-core>=1.4.9",
     "langchain-google-genai>=4.2.7",
+    "langchain-groq>=1.1.3",
+    "langchain-huggingface>=1.2.2",
+    "langchain-mistralai>=1.1.6",
+    "langchain-nvidia-ai-endpoints>=1.4.3",
+    "langchain-openai>=1.3.5",
     "langchain-text-splitters>=1.1.2",
     "langgraph>=1.2.9",
     "pydantic>=2.13.4",
@@ -27,5 +33,6 @@ dev = [
 [tool.pyright]
 extraPaths = [
   "01-prompt-engineering-langchain-templates",
-  "02-langchain-core-rag-agents"
+  "02-langchain-core-rag-agents",
+  "03-multi-provider-genai-flask"
 ]
