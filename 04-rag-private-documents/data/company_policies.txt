@@ -1,0 +1,69 @@
+Company Policies — RAG Training Document
+
+1. Mobile Device Policy
+
+Employees may use company-issued mobile devices for approved business
+activities. Each device must use a screen lock, current security updates, and
+applications approved by the information technology department. Lost or
+stolen devices must be reported to IT immediately. Personal use should remain
+limited and must not interfere with work responsibilities.
+
+2. Information Security Policy
+
+Confidential company information must not be copied to personal cloud storage,
+personal email accounts, or unapproved removable media. Employees must use
+strong, unique passwords and must never share account credentials. Suspected
+phishing messages, unauthorized access, or other security incidents must be
+reported to the security team immediately.
+
+3. Remote Work Policy
+
+Remote employees must protect confidential conversations and documents from
+unauthorized access. Company systems should be accessed through approved
+devices and secure network connections. Employees remain responsible for
+meeting working-hour, communication, performance, and information-security
+requirements while working remotely.
+
+4. Leave Policy
+
+Planned leave should be submitted through the company leave system and approved
+by the employee's manager. Unexpected absence should be reported as soon as
+reasonably possible. Available leave balances and regional requirements may
+vary, so employees should consult Human Resources for case-specific guidance.
+
+5. Smoking Policy
+
+Smoking is prohibited inside company offices, warehouses, meeting rooms, and
+company vehicles. Employees must use designated outdoor smoking areas where
+local rules permit smoking. This policy also applies to visitors and
+contractors while they are on company premises.
+
+6. Company Vehicle Policy
+
+Only authorized employees may drive company vehicles. Drivers must follow local
+traffic laws, wear seat belts, and report accidents, damage, or mechanical
+problems promptly. Alcohol consumption and illegal substances are prohibited in
+company vehicles. The policy does not state whether eating is permitted inside
+company vehicles.
+
+7. Workplace Conduct Policy
+
+Employees must treat colleagues, customers, contractors, and visitors with
+professionalism and respect. Harassment, discrimination, threats, and violent
+behavior are prohibited. Concerns should be reported to a manager, Human
+Resources, or the appropriate confidential reporting channel.
+
+8. Data Retention Policy
+
+Business records must be stored only in approved systems and retained according
+to the applicable retention schedule. Employees must not delete records that
+are subject to a legal hold, audit, or active investigation. Questions about a
+record category should be directed to the legal or compliance team.
+
+9. Incident Reporting Policy
+
+Workplace injuries, information-security incidents, lost company equipment,
+vehicle accidents, and suspected policy violations should be reported promptly
+through the appropriate company channel. Emergency situations should be
+reported to local emergency services before internal reporting procedures are
+followed.

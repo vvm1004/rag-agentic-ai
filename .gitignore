@@ -10,6 +10,8 @@ wheels/
 chroma_db/
 .pytest_cache/
 .ruff_cache/
+chroma_db/*
+!chroma_db/.gitkeep
 
 # Virtual environments
 .venv
