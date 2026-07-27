@@ -16,3 +16,4 @@ chroma_db/*
 # Virtual environments
 .venv
 .env
+.gradio/
