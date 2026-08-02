@@ -38,5 +38,6 @@ extraPaths = [
   "02-langchain-core-rag-agents",
   "03-multi-provider-genai-flask",
   "04-rag-private-documents",
-  "05-gradio-llm"
+  "05-gradio-llm",
+  "06-pdf-rag-gradio-app"
 ]
