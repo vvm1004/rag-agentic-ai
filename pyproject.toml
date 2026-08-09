@@ -21,6 +21,9 @@ dependencies = [
     "langchain-openai>=1.3.5",
     "langchain-text-splitters>=1.1.2",
     "langgraph>=1.2.9",
+    "llama-index-core>=0.14.23",
+    "llama-index-embeddings-google-genai>=0.5.1",
+    "llama-index-llms-google-genai>=0.9.6",
     "pydantic>=2.13.4",
     "pypdf>=6.14.2",
     "python-dotenv>=1.2.2",
@@ -39,5 +42,6 @@ extraPaths = [
   "03-multi-provider-genai-flask",
   "04-rag-private-documents",
   "05-gradio-llm",
-  "06-pdf-rag-gradio-app"
+  "06-pdf-rag-gradio-app",
+  "07-llamaindex-icebreaker-bot",
 ]

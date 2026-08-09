@@ -1,0 +1,61 @@
+{
+  "full_name": "Alex Nguyen",
+  "headline": "Senior Data & AI Engineer",
+  "location": "Ho Chi Minh City, Vietnam",
+  "summary": "Alex is a data and AI engineer focused on retrieval systems, machine learning platforms, and practical generative AI products.",
+  "experiences": [
+    {
+      "company": "Northstar Analytics",
+      "title": "Senior Data & AI Engineer",
+      "period": "2023-present",
+      "highlights": [
+        "Built a document question-answering platform for internal teams.",
+        "Designed semantic-search pipelines using vector embeddings.",
+        "Mentored junior engineers on Python and machine learning systems."
+      ]
+    },
+    {
+      "company": "Blue River Software",
+      "title": "Data Engineer",
+      "period": "2020-2023",
+      "highlights": [
+        "Built ETL pipelines for product and customer analytics.",
+        "Improved data quality checks and observability.",
+        "Worked with product teams to turn business questions into datasets."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "University of Technology",
+      "degree": "BSc in Computer Science",
+      "focus": "Machine learning and distributed systems"
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "RAG",
+    "LlamaIndex",
+    "LangChain",
+    "Vector databases",
+    "Machine learning",
+    "Data engineering"
+  ],
+  "projects": [
+    {
+      "name": "Internal Knowledge Assistant",
+      "description": "A RAG assistant that retrieves policy and engineering documents and answers employee questions with citations."
+    },
+    {
+      "name": "AI Study Group",
+      "description": "A monthly internal learning group where engineers demonstrate small AI prototypes and discuss lessons learned."
+    }
+  ],
+  "interests": [
+    "AI education",
+    "developer tools",
+    "coffee",
+    "public speaking"
+  ]
+}
