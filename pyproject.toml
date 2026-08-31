@@ -40,6 +40,8 @@ dev = [
 ]
 
 [tool.pyright]
+venvPath = "."
+venv = ".venv"
 extraPaths = [
   "01-prompt-engineering-langchain-templates",
   "02-langchain-core-rag-agents",
@@ -49,4 +51,6 @@ extraPaths = [
   "06-pdf-rag-gradio-app",
   "07-llamaindex-icebreaker-bot",
   "08-similarity-search-by-hand",
+  "09-chromadb-vector-rag-gemini",
 ]
+

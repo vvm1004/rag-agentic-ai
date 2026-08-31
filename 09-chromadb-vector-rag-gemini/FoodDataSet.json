@@ -1,0 +1,222 @@
+[
+  {
+    "id": "food_1",
+    "food_name": "Chicken Tikka Masala",
+    "food_description": "Tender grilled chicken chunks enveloped in a creamy, aromatic spiced tomato and butter sauce with garam masala.",
+    "cuisine_type": "Indian",
+    "food_calories_per_serving": 420,
+    "food_ingredients": ["Chicken breast", "Tomato puree", "Heavy cream", "Garam masala", "Ginger", "Garlic", "Coriander"],
+    "food_health_benefits": "High in lean protein, rich in antioxidant spices such as turmeric and ginger which aid digestion.",
+    "cooking_method": "Grilled and simmered in spiced sauce",
+    "taste_profile": "Rich, spicy, savory, and creamy"
+  },
+  {
+    "id": "food_2",
+    "food_name": "Mediterranean Greek Salad",
+    "food_description": "Crisp cucumbers, ripe tomatoes, red onions, Kalamata olives, and creamy feta cheese drizzled with extra virgin olive oil and oregano.",
+    "cuisine_type": "Greek",
+    "food_calories_per_serving": 260,
+    "food_ingredients": ["Cucumbers", "Tomatoes", "Feta cheese", "Kalamata olives", "Red onions", "Extra virgin olive oil", "Oregano"],
+    "food_health_benefits": "Heart-healthy monounsaturated fats from olive oil, vitamins A and C, and essential minerals.",
+    "cooking_method": "Freshly tossed raw vegetables",
+    "taste_profile": "Fresh, tangy, salty, and crisp"
+  },
+  {
+    "id": "food_3",
+    "food_name": "Authentic Vietnamese Beef Pho",
+    "food_description": "Traditional aromatic beef bone broth simmered for 12 hours with star anise, cinnamon, tender flat rice noodles, and sliced flank beef.",
+    "cuisine_type": "Vietnamese",
+    "food_calories_per_serving": 380,
+    "food_ingredients": ["Beef bone broth", "Rice noodles", "Thin sliced beef", "Star anise", "Cinnamon", "Bean sprouts", "Fresh basil", "Lime"],
+    "food_health_benefits": "Rich in collagen, hydrating electrolytes, and immune-supporting botanical herbs.",
+    "cooking_method": "Slow simmered broth served over blanched noodles",
+    "taste_profile": "Aromatic, savory, herbal, and light"
+  },
+  {
+    "id": "food_4",
+    "food_name": "Classic Italian Margherita Pizza",
+    "food_description": "Crispy wood-fired artisan crust topped with San Marzano tomato sauce, fresh buffalo mozzarella, and fragrant basil leaves.",
+    "cuisine_type": "Italian",
+    "food_calories_per_serving": 340,
+    "food_ingredients": ["Wheat flour dough", "San Marzano tomatoes", "Fresh mozzarella", "Fresh basil", "Extra virgin olive oil"],
+    "food_health_benefits": "Provides lycopene from cooked tomatoes and dietary calcium from fresh mozzarella.",
+    "cooking_method": "Wood-fired baked",
+    "taste_profile": "Cheesy, herbal, slightly sweet, and crispy"
+  },
+  {
+    "id": "food_5",
+    "food_name": "Creamy Tuscan Garlic Chicken",
+    "food_description": "Pan-seared golden chicken cutlets bathed in a silky garlic cream sauce loaded with sun-dried tomatoes and baby spinach.",
+    "cuisine_type": "Italian",
+    "food_calories_per_serving": 410,
+    "food_ingredients": ["Chicken breast", "Baby spinach", "Sun-dried tomatoes", "Garlic", "Heavy cream", "Parmesan cheese"],
+    "food_health_benefits": "High protein content, rich in iron and dietary fiber from spinach and antioxidant lycopene.",
+    "cooking_method": "Pan-seared and simmered in cream",
+    "taste_profile": "Creamy, savory, garlicky, and rich"
+  },
+  {
+    "id": "food_6",
+    "food_name": "Salmon Nigiri & Avocado Roll",
+    "food_description": "Fresh premium Atlantic salmon slices over seasoned vinegared sushi rice paired with ripe creamy avocado rolls.",
+    "cuisine_type": "Japanese",
+    "food_calories_per_serving": 320,
+    "food_ingredients": ["Fresh Atlantic salmon", "Sushi rice", "Nori seaweed", "Avocado", "Rice vinegar", "Wasabi"],
+    "food_health_benefits": "Exceptional source of Omega-3 fatty acids for brain and cardiovascular health, high-grade clean protein.",
+    "cooking_method": "Raw sashimi grade fish over steamed seasoned rice",
+    "taste_profile": "Umami, buttery, subtle sweetness, and refreshing"
+  },
+  {
+    "id": "food_7",
+    "food_name": "Mexican Street Tacos with Carne Asada",
+    "food_description": "Warm grilled corn tortillas filled with citrus-marinated grilled flank steak, chopped cilantro, diced white onions, and spicy salsa verde.",
+    "cuisine_type": "Mexican",
+    "food_calories_per_serving": 350,
+    "food_ingredients": ["Corn tortillas", "Flank steak", "Cilantro", "White onions", "Tomatillo salsa", "Lime juice"],
+    "food_health_benefits": "Rich in dietary iron, zinc, vitamin B12, and gluten-free fiber from whole corn tortillas.",
+    "cooking_method": "Charcoal grilled steak served on warm griddled tortillas",
+    "taste_profile": "Spicy, citrusy, smoky, and savory"
+  },
+  {
+    "id": "food_8",
+    "food_name": "Decadent Molten Chocolate Lava Cake",
+    "food_description": "Warm individual dark chocolate cake with a luscious, flowing warm chocolate ganache center dusted with cocoa powder.",
+    "cuisine_type": "American",
+    "food_calories_per_serving": 450,
+    "food_ingredients": ["Dark chocolate (70%)", "Butter", "Eggs", "Cane sugar", "Flour", "Vanilla extract", "Cocoa powder"],
+    "food_health_benefits": "Dark chocolate contains high flavonoids and polyphenols that promote positive mood and antioxidant defense.",
+    "cooking_method": "Oven baked with soft molten center",
+    "taste_profile": "Intensely chocolaty, rich, sweet, and decadent"
+  },
+  {
+    "id": "food_9",
+    "food_name": "Thai Green Coconut Curry with Tofu",
+    "food_description": "Fragrant green chili curry paste cooked in creamy coconut milk with crisp bamboo shoots, Thai basil, bell peppers, and crispy tofu.",
+    "cuisine_type": "Thai",
+    "food_calories_per_serving": 330,
+    "food_ingredients": ["Tofu", "Coconut milk", "Green curry paste", "Bamboo shoots", "Thai basil", "Kaffir lime leaves", "Bell peppers"],
+    "food_health_benefits": "Plant-based protein, healthy medium-chain triglycerides (MCTs) from coconut, and anti-inflammatory spices.",
+    "cooking_method": "Simmered in coconut broth",
+    "taste_profile": "Spicy, aromatic, herbal, and creamy"
+  },
+  {
+    "id": "food_10",
+    "food_name": "Classic French Onion Soup",
+    "food_description": "Slowly caramelized yellow onions in a rich beef and herb broth, topped with a crusty toasted baguette slice and melted Gruyère cheese.",
+    "cuisine_type": "French",
+    "food_calories_per_serving": 290,
+    "food_ingredients": ["Caramelized onions", "Rich beef stock", "Gruyere cheese", "French baguette", "Butter", "Fresh thyme"],
+    "food_health_benefits": "Onions provide quercetin antioxidants, and warm bone broth offers soothing hydration and electrolytes.",
+    "cooking_method": "Slow caramelized onions simmered and broiled with cheese",
+    "taste_profile": "Deep savory, sweet caramel, rich cheese, and comforting"
+  },
+  {
+    "id": "food_11",
+    "food_name": "Spanish Seafood Paella",
+    "food_description": "Bomba rice infused with saffron threads, simmered in shellfish broth with jumbo shrimp, mussels, calamari, and sweet green peas.",
+    "cuisine_type": "Spanish",
+    "food_calories_per_serving": 430,
+    "food_ingredients": ["Bomba rice", "Saffron", "Shrimp", "Mussels", "Calamari", "Bell peppers", "Fish broth", "Green peas"],
+    "food_health_benefits": "Rich in lean marine protein, zinc, selenium, and mood-boosting saffron.",
+    "cooking_method": "Simmered in a wide shallow paella pan until socarrat forms",
+    "taste_profile": "Savory, smoky, saffron aroma, and rich seafood"
+  },
+  {
+    "id": "food_12",
+    "food_name": "Superfood Acai & Berry Smoothie Bowl",
+    "food_description": "Thick chilled acai puree blended with blueberries and banana, topped with crunchy hemp granola, chia seeds, and fresh strawberries.",
+    "cuisine_type": "American",
+    "food_calories_per_serving": 280,
+    "food_ingredients": ["Acai berry puree", "Blueberries", "Banana", "Almond milk", "Granola", "Chia seeds", "Fresh strawberries"],
+    "food_health_benefits": "Extremely high in antioxidants, dietary fiber, essential vitamins, and plant-based omega-3s.",
+    "cooking_method": "Blended raw smoothie base with fresh toppings",
+    "taste_profile": "Fruity, sweet, tart, refreshing, and crunchy"
+  },
+  {
+    "id": "food_13",
+    "food_name": "Korean Kimchi Fried Rice with Egg",
+    "food_description": "Aged tangy kimchi stir-fried with steamed rice, gochujang, sesame oil, scallions, and crowned with a crispy sunny-side-up fried egg.",
+    "cuisine_type": "Korean",
+    "food_calories_per_serving": 370,
+    "food_ingredients": ["Fermented kimchi", "Steamed rice", "Egg", "Gochujang chili paste", "Toasted sesame oil", "Scallions", "Nori flakes"],
+    "food_health_benefits": "Probiotic bacteria from fermented kimchi support gut microbiome health and digestive vitality.",
+    "cooking_method": "Wok stir-fried over high heat",
+    "taste_profile": "Spicy, tangy, umami, smoky, and savory"
+  },
+  {
+    "id": "food_14",
+    "food_name": "Artisan Avocado Toast with Poached Egg",
+    "food_description": "Toasted sourdough bread topped with mashed Hass avocado, lemon juice, chili flakes, sea salt, and a warm runny poached pasture-raised egg.",
+    "cuisine_type": "American",
+    "food_calories_per_serving": 310,
+    "food_ingredients": ["Sourdough bread", "Hass avocado", "Pasture-raised egg", "Red pepper flakes", "Lemon juice", "Extra virgin olive oil"],
+    "food_health_benefits": "Provides healthy unsaturated fats, lutein for eye health, choline for cognitive function, and fiber.",
+    "cooking_method": "Toasted bread with gently poached egg",
+    "taste_profile": "Creamy, rich yolk, zesty lemon, and crisp crust"
+  },
+  {
+    "id": "food_15",
+    "food_name": "Creamy Lebanese Hummus with Warm Pita",
+    "food_description": "Velvety smooth chickpea dip blended with nutty tahini, fresh garlic, lemon juice, topped with olive oil, paprika, and served with warm pita.",
+    "cuisine_type": "Middle Eastern",
+    "food_calories_per_serving": 270,
+    "food_ingredients": ["Chickpeas", "Tahini paste", "Garlic", "Lemon juice", "Olive oil", "Paprika", "Whole wheat pita"],
+    "food_health_benefits": "Excellent plant protein and prebiotic dietary fiber that stabilizes blood glucose levels.",
+    "cooking_method": "Slow cooked chickpeas puréed smooth",
+    "taste_profile": "Nutty, creamy, garlicky, and bright citrus"
+  },
+  {
+    "id": "food_16",
+    "food_name": "Dark Chocolate Avocado Silk Mousse",
+    "food_description": "Silky chilled vegan chocolate mousse whipped from ripe avocados, raw cocoa powder, pure maple syrup, and vanilla bean.",
+    "cuisine_type": "American",
+    "food_calories_per_serving": 240,
+    "food_ingredients": ["Ripe avocado", "Raw cocoa powder", "Pure maple syrup", "Almond milk", "Vanilla extract", "Sea salt"],
+    "food_health_benefits": "Dairy-free dessert packed with monounsaturated fatty acids, potassium, and magnesium.",
+    "cooking_method": "Whipped and chilled without baking",
+    "taste_profile": "Silky smooth, rich chocolate, moderately sweet"
+  },
+  {
+    "id": "food_17",
+    "food_name": "Grilled Lemon Herb Atlantic Salmon",
+    "food_description": "Wild-caught Atlantic salmon fillet seasoned with fresh dill, parsley, crushed garlic, and grilled with charred lemon wedges.",
+    "cuisine_type": "American",
+    "food_calories_per_serving": 360,
+    "food_ingredients": ["Atlantic salmon fillet", "Fresh dill", "Garlic", "Lemon", "Olive oil", "Black pepper", "Sea salt"],
+    "food_health_benefits": "Potent source of long-chain Omega-3 EPA/DHA, high protein, and vitamin D for bone and immune support.",
+    "cooking_method": "Char-grilled over medium flame",
+    "taste_profile": "Flaky, buttery, herbaceous, and citrusy"
+  },
+  {
+    "id": "food_18",
+    "food_name": "Indian Golden Lentil Dal with Spinach",
+    "food_description": "Yellow lentils gently simmered with ground turmeric, cumin seeds, fresh ginger, and baby spinach, tempered with aromatic ghee.",
+    "cuisine_type": "Indian",
+    "food_calories_per_serving": 250,
+    "food_ingredients": ["Yellow split lentils", "Baby spinach", "Turmeric", "Cumin seeds", "Ginger", "Garlic", "Ghee"],
+    "food_health_benefits": "Low calorie, high in dietary fiber, iron, folate, and powerful anti-inflammatory turmeric curcumin.",
+    "cooking_method": "Simmered and tempered with hot spiced ghee",
+    "taste_profile": "Earthy, warm, mild spice, and comforting"
+  },
+  {
+    "id": "food_19",
+    "food_name": "Thai Sweet Mango Sticky Rice",
+    "food_description": "Warm glutinous sticky rice cooked in sweetened salted coconut cream, paired with freshly sliced sweet Champagne mangoes and sesame seeds.",
+    "cuisine_type": "Thai",
+    "food_calories_per_serving": 390,
+    "food_ingredients": ["Sweet glutinous rice", "Ripe mangoes", "Coconut milk", "Palm sugar", "Toasted sesame seeds", "Sea salt"],
+    "food_health_benefits": "Natural fruit vitamins A and C from fresh mangoes, quick digestible energy, and dairy-free.",
+    "cooking_method": "Steamed sticky rice infused with warm sweetened coconut cream",
+    "taste_profile": "Sweet, tropical fruit, rich coconut, and subtly salty"
+  },
+  {
+    "id": "food_20",
+    "food_name": "Tuscan White Bean and Vegetable Minestrone",
+    "food_description": "Hearty country Italian vegetable soup made with cannellini beans, zucchini, carrots, diced tomatoes, kale, and fragrant rosemary.",
+    "cuisine_type": "Italian",
+    "food_calories_per_serving": 210,
+    "food_ingredients": ["Cannellini beans", "Zucchini", "Carrots", "Diced tomatoes", "Kale", "Vegetable broth", "Rosemary"],
+    "food_health_benefits": "Low calorie density, high soluble fiber, cholesterol-free, and rich in vitamins and minerals.",
+    "cooking_method": "Slow simmered in vegetable and herb broth",
+    "taste_profile": "Hearty, herbal, savory, and clean"
+  }
+]
